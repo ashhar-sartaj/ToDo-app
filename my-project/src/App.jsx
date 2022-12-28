@@ -17,7 +17,7 @@ const style = {
 function App() {
   const [todos, setTodos] = useState([])
   const [input, setInput] = useState("");
-  console.log(input)
+  // console.log(input)
   //create todo
   const createTodo = async (e) =>  {
     e.preventDefault();
